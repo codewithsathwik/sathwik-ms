@@ -1,10 +1,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 :root{
     --poppins : "poppins",sans-serif, Arial;
-    --heading : "IBM Plex Mono",sans-serif, Arial;
+    --heading : "Raleway",sans-serif, Arial;
     --btn-txt : "Sora",sans-serif, Arial;
 }
 
@@ -31,6 +33,7 @@ nav {
     height: 79px;
     position: relative;
     /* background-color: aqua; */
+    box-shadow: 0px 0px 65px 1.01px rgba(224, 221, 221, 0.44);
 }
 
 .navbar {
@@ -87,8 +90,8 @@ nav {
 .logo {
     margin-top: 3px;
     margin-left: 50px;
-    font-size: xx-large;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 600;
     letter-spacing: 2px;
     font-family: var(--heading);
 }
@@ -99,7 +102,7 @@ nav {
     left: 0;
     right: 0;
     height: 100vh;
-    width: 75vw;
+    width: 80vw;
     margin: auto;
     display: flex;
     justify-content: space-evenly;
