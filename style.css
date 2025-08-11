@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 
 :root {
     --poppins: "poppins", sans-serif, Arial;
-    --heading: "Raleway", sans-serif, Arial;
+    --heading: "Dancing Script", sans-serif, Arial;
     --btn-txt: "Sora", sans-serif, Arial;
 }
 
@@ -194,13 +195,13 @@ nav {
     margin: auto;
     text-align: center;
     display: flex;
-    justify-content: center;
+    /* justify-content: ; */
     align-items: center;
     flex-direction: column;
+    padding-top: 30px;
 }
 
 .about-section h1 {
-
     font-size: 39px;
 }
 
@@ -220,11 +221,11 @@ nav {
 .about-div-container {
     margin-top: 35px;
     display: flex;
-    justify-content: ;
+    justify-content: center;
     align-items: center;
     gap: 30px;
-    /* background-color: aqua; */
-    /* padding: 10px;
+    /* background-color: aqua; 
+    padding: 10px;
     border: 2px solid rgb(53, 53, 53);
     border-radius: 25px; */
 }
@@ -232,8 +233,6 @@ nav {
 .about-div-container .about-text p {
     text-align: justify;
 }
-
-.about-edu {}
 
 .about-edu h2::before {
     content: "";
