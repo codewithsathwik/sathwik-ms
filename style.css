@@ -189,6 +189,12 @@ nav {
     height: 32px;
 }
 
+
+
+/* adout section */
+/* adout section */
+/* adout section */
+
 .about-section {
     height: 88vh;
     width: 80vw;
@@ -295,4 +301,16 @@ nav {
     justify-content: space-around;
     /* background-color: black; */
     height: 50%;
+}
+
+/* main{
+    background-color: aqua;
+} */
+.arrow-next img{
+    height: 35px;
+}
+.arrow-next{
+    position: absolute;
+    bottom: -600px;
+    right: 45px;
 }
