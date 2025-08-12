@@ -310,7 +310,95 @@ nav {
     height: 35px;
 }
 .arrow-next{
-    position: absolute;
+    /* position: absolute;
     bottom: -600px;
-    right: 45px;
+    right: 45px; */
+
+    position: relative;
+    bottom: px;
+    right: -42vw;
 }
+
+
+/* skill section */
+/* skill section */
+/* skill section */
+
+.skill-section{
+    height: 88vh;
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+
+.skill-section .skill-text h1{
+    font-size: 39px;
+}
+
+.skill-scroll{
+    width: 100%;
+    /* background-color: aqua; */
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.skill-lang{
+    height:150px;
+    /* background-color: aqua; */
+    width: 20vw;
+    border: 2px solid rgb(53, 53, 53);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skill-lang h2::before{
+    content: "";
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 5px;
+    left: -5px;
+}
+
+.skill-lang p{
+    color: grey;
+}
+
+.skill-text{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#html h2::before{
+    background-image: url(/icons/Skills/html.png);
+}
+#css h2::before{
+    background-image: url(/icons/Skills/css-3.png);
+}
+#js h2::before{
+    background-image: url(/icons/Skills/js.png);
+}
+#git h2::before{
+    background-image: url(/icons/Skills/git.png);
+}
+#sql h2::before{
+    background-image: url(/icons/Skills/mysql.png);
+}
+
