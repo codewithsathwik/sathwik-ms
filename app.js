@@ -1,10 +1,10 @@
 
 //resume button display
-//resume button display
-
-const cvBtn = document.getElementById("btn-cv");
-console.log(cvBtn);
-
-cvBtn.addEventListener("click",() =>{
+document.getElementById("btn-cv").addEventListener("click",() =>{
     window.open("/assets/cv.pdf",'_blank');
+})
+
+//contact btn
+document.getElementById("btn-con").addEventListener("click",()=>{
+    location.href='./#contact';
 })
