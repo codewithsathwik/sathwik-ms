@@ -407,6 +407,27 @@ nav {
 /* project section */
 /* project section */
 
+.project-section{
+    width: 80vw;
+    height: 88vh;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.projects img{
+    height:30vh;
+    border-radius: 15px;
+}
+.projects{
+    width: 25vw;
+    height: 335px;
+    /* background-color: beige; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(53, 53, 53);
+    border-radius: 25px;
+}
 
 
 
