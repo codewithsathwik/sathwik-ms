@@ -17,7 +17,7 @@ document.getElementById("one-view").addEventListener("click",() =>{
 //project1 btn github
 
 document.getElementById("one-src").addEventListener("click",() =>{
-    window.open("",'_blank');
+    window.open("https://github.com/codewithsathwik/niranjans-gallery",'_blank');
 })
 
 // project2 btn view
