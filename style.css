@@ -341,7 +341,6 @@ nav {
 
 .skill-scroll{
     width: 100%;
-    /* background-color: aqua; */
     height: auto;
     display: flex;
     justify-content: center;
@@ -352,7 +351,6 @@ nav {
 
 .skill-lang{
     height:150px;
-    /* background-color: aqua; */
     width: 20vw;
     border: 2px solid rgb(53, 53, 53);
     border-radius: 25px;
@@ -411,7 +409,6 @@ nav {
     width: 80vw;
     height: 88vh;
     margin: auto;
-    /* background-color: aqua; */
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -475,7 +472,6 @@ nav {
 
 .project-module{
     width: 100%;
-    /* background-color: rgb(119, 124, 124); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -487,4 +483,7 @@ nav {
     margin-top: 25px;
     text-align: center;
 }
+
+
+
 

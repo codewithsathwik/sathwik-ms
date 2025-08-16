@@ -1,4 +1,4 @@
-
+console.log("hello");
 //resume button display
 document.getElementById("btn-cv").addEventListener("click",() =>{
     window.open("/assets/cv.pdf",'_blank');
@@ -27,5 +27,5 @@ document.getElementById("two-view").addEventListener("click",() =>{
 
 //project2 btn github
 document.getElementById("two-src").addEventListener("click",() =>{
-    window.open("https://github.com/codewithsathwik/my-portfolio",'_blank');
+    window.open("https://github.com/codewithsathwik/sathwik-ms",'_blank');
 })
