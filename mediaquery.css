@@ -1,0 +1,91 @@
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar ul {
+        display: none;
+        /* hidden menu */
+    }
+
+    /* Hero */
+    .hero-section {
+        flex-direction: column;
+        
+        text-align: center;
+    }
+
+    #hero-text2 {
+        font-size: 28px;
+    }
+
+    #hero-text3 {
+        font-size: 20px;
+    }
+
+    /* About section */
+    .about-div-container {
+        flex-direction: column;
+    }
+
+    .about-img img {
+        width: 200px;
+    }
+
+    /* Skills & Projects */
+    .skill-lang,
+    .projects {
+        width: 100%;
+        max-width: none;
+    }
+
+    /* Contact */
+    .contact-container {
+        height: auto;
+        width: 100%;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    /* Footer */
+    .footer-navbar{
+        display: none;
+    }
+
+    .hero-section,
+    .about-section,
+    .project-section,
+    .skill-section,
+    .contact-section {
+        height: auto;
+        width: 80vw;
+        margin: auto;
+    }
+     .contact-section{
+        height: 68vh;
+     }
+
+    .hero-photo img{
+        margin-top: 15px ;
+        height: 300px;
+    }
+    .hero-section{
+        gap: 0;
+        justify-content: center;
+        height: 88vh;
+    }
+    .hero-photo, .hero-text{
+        height: auto;
+    }
+    .edu{
+        flex-direction: column;
+        gap: 10px;
+    }
+    .edu-std{
+        width: 100%;
+    }
+
+
+
+}
