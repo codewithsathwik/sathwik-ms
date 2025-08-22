@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-   
+
     .navbar ul {
         display: none;
         /* hidden menu */
@@ -8,7 +8,7 @@
     /* Hero */
     .hero-section {
         flex-direction: column;
-        
+
         text-align: center;
     }
 
@@ -45,7 +45,7 @@
     }
 
     /* Footer */
-    .footer-navbar{
+    .footer-navbar {
         display: none;
     }
 
@@ -58,30 +58,58 @@
         width: 80vw;
         margin: auto;
     }
-     .contact-section{
-        height: 68vh;
-     }
 
-    .hero-photo img{
-        margin-top: 15px ;
+    .contact-section {
+        height: 68vh;
+    }
+
+    .hero-photo img {
+        margin-top: 15px;
         width: 95%;
         height: auto;
     }
-    .hero-section{
+
+    .hero-section {
         gap: 0;
         justify-content: center;
         height: 88vh;
     }
-    .hero-photo, .hero-text{
+
+    .hero-photo,
+    .hero-text {
         height: auto;
         width: 100%;
     }
-    .edu{
+
+    .edu {
         flex-direction: column;
         gap: 10px;
     }
-    .edu-std{
+
+    .edu-std {
         width: 100%;
     }
+
+    .projects {
+        height: 290px;
+    }
+
+    .btn-container {
+        gap: 7px;
+    }
+
+    .btn-container button {
+        font-size: 13px;
+    }
+
+    .about-div-container .about-text p {
+        text-align: center;
+    }
+    .skill-lang{
+        height: 100px;
+        border-radius: 15px;
+        font-size: 13px;
+    }
+    
 
 }

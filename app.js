@@ -29,3 +29,12 @@ document.getElementById("two-view").addEventListener("click",() =>{
 document.getElementById("two-src").addEventListener("click",() =>{
     window.open("https://github.com/codewithsathwik/sathwik-ms",'_blank');
 })
+// project3 btn view
+document.getElementById("three-view").addEventListener("click",() =>{
+    window.open("https://currency-sms.netlify.app/",'_blank');
+})
+
+//project3 btn github
+document.getElementById("three-src").addEventListener("click",() =>{
+    window.open("https://github.com/codewithsathwik/currency-convertor",'_blank');
+})
